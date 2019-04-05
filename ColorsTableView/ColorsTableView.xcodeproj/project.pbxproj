@@ -14,6 +14,8 @@
 		2D7C3BBF22336A2F0090ACC6 /* ColorsTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C3BBE22336A2F0090ACC6 /* ColorsTableViewTests.swift */; };
 		2D7C3BCA22336A2F0090ACC6 /* ColorsTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C3BC922336A2F0090ACC6 /* ColorsTableViewUITests.swift */; };
 		2D7C3BD822336AF70090ACC6 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C3BD722336AF70090ACC6 /* ColorsViewController.swift */; };
+		2D7C8D5222580BC500712CFA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C8D5122580BC500712CFA /* Color.swift */; };
+		2D7C8D54225810B700712CFA /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C8D53225810B700712CFA /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2D7C3BC922336A2F0090ACC6 /* ColorsTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewUITests.swift; sourceTree = "<group>"; };
 		2D7C3BCB22336A2F0090ACC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7C3BD722336AF70090ACC6 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		2D7C8D5122580BC500712CFA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2D7C8D53225810B700712CFA /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				2D7C3BA922336A200090ACC6 /* AppDelegate.swift */,
+				2D7C8D5122580BC500712CFA /* Color.swift */,
 				2D7C3BD722336AF70090ACC6 /* ColorsViewController.swift */,
 				2D7C3BAD22336A200090ACC6 /* Main.storyboard */,
 				2D7C3BB022336A2F0090ACC6 /* Assets.xcassets */,
 				2D7C3BB222336A2F0090ACC6 /* LaunchScreen.storyboard */,
 				2D7C3BB522336A2F0090ACC6 /* Info.plist */,
+				2D7C8D53225810B700712CFA /* ColorDetailViewController.swift */,
 			);
 			path = ColorsTableView;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				2D7C3BD822336AF70090ACC6 /* ColorsViewController.swift in Sources */,
 				2D7C3BAA22336A200090ACC6 /* AppDelegate.swift in Sources */,
+				2D7C8D5222580BC500712CFA /* Color.swift in Sources */,
+				2D7C8D54225810B700712CFA /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
